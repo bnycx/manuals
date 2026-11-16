@@ -1,6 +1,6 @@
 ---
-title: '[hyfo Easy Start](http://yuanchao-xu.github.io/hyfo/)'
-author: '[Yuanchao Xu](https://dk.linkedin.com/in/xuyuanchao37)'
+title: '[hyfo Easy Start](http://bnycx.github.io/hyfo/)'
+author: '[Yuanchao Xu](https://www.linkedin.com/in/yuanchao-xu/)'
 date: '`r Sys.Date()`'
 output: 
   pdf_document:
@@ -16,7 +16,7 @@ vignette: >
 
 # Introduction
 
-**Official Website is [http://yuanchao-xu.github.io/hyfo](http://yuanchao-xu.github.io/hyfo)**
+**Official Website is [http://bnycx.io/hyfo](http://bnycx.github.io/hyfo)**
 
 hyfo is an R package, initially designed for the European Project EUPORIAS, and cooperated with DHI Denmark, which was then extended to other uses in hydrology, hydraulics and climate.
 
@@ -24,9 +24,9 @@ This package mainly focuses on data process and visulization in hydrology and cl
 
 **If you feel hyfo is of a little help, please cite it as following:**
 
-Xu, Yuanchao(2015). hyfo: Hydrology and Climate Forecasting R Package for Data Analysis and Visualization. Retrieved from http://yuanchao-xu.github.io/hyfo/
+hyfo (2023): Hydrology and Climate Forecasting R Package for Data Analysis and Visualization. Retrieved from http://bnycx.github.io/hyfo/
 
-[Author in this corner](https://dk.linkedin.com/in/xuyuanchao37)
+[Author in this corner](https://www.linkedin.com/in/yuanchao-xu/)
 
 #### TIPS
 * For the hydrology tools part, the minimum time unit is a day, i.e., it mainly focuses on water resource and some long term analysis. For flood analysis part, it will be added in future.
@@ -54,7 +54,7 @@ Xu, Yuanchao(2015). hyfo: Hydrology and Climate Forecasting R Package for Data A
   install.packages('devtools')
   # Ignore the warning that Rtool is not installed, unless you want other #function from devtools.
   # If you have "devtools" installed already, you just need to run the following code.
-  devtools::install_github('Yuanchao-Xu/hyfo')
+  devtools::install_github('bnycx/hyfo')
 ```
 
 During the installation of the development version, if there is some error, you can just follow the error message and reinstall the package with error. The most common message is
@@ -65,7 +65,7 @@ During the installation of the development version, if there is some error, you 
 ```
 If so, just use `install.pakcages('xxx')` to reinstall XXX package. And then reinstall hyfo again. Other errors can be solved by directly reinsalling hyfo.
 
-* You can also go [here](http://yuanchao-xu.github.io/hyfo/) to download installation file, and use IDE like Rstudio to install from file, both `tar.gz` and `zip` formats are provided.
+* You can also go [here](http://bnycx.github.io/hyfo/) to download installation file, and use IDE like Rstudio to install from file, both `tar.gz` and `zip` formats are provided.
 
 # 1. Hydrology
 
@@ -1095,7 +1095,7 @@ The functions with anarbe case end with `_anarbe`, all of them are used to colle
 Since the available files on those website are arranged by a year or five years, for long term data collection, a tools is necessary for collecting data from different files.
 
 ##### Note:
-For excel files, if you have access to the dam regulation excel file of the dam anarbe, you can use  `collectData_excel_anarbe` in the package, but this function is commented in the original code, cannot be used directly. Go to original file in the library or go to github [here](https://github.com/Yuanchao-Xu/hyfo/blob/master/R/collectData_excel.R), copy the original code.
+For excel files, if you have access to the dam regulation excel file of the dam anarbe, you can use  `collectData_excel_anarbe` in the package, but this function is commented in the original code, cannot be used directly. Go to original file in the library or go to github [here](https://github.com/bnycx/hyfo/blob/master/R/collectData_excel.R), copy the original code.
 
 There are two csv files and txt files included in the package, which can be used as examples.
 
